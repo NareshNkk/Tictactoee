@@ -1,0 +1,135 @@
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(171, 20, 20);
+}
+
+.header {
+  font-size: 2em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.aligncenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  background-color: #f84b0c;
+  padding: 10px 10px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  height: 7vh;
+  width: 45vh;
+ 
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.nav a:hover {
+  background-color: black;
+}
+
+.game-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+}
+
+.board {
+  background-color: #efb791;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.row {
+  display: contents;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  background-color: #993300;
+  border-radius: 25px;
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+.cell:hover {
+  opacity: 0.8;
+}
+
+.brown{
+  background-color: #993300;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f84b0c;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1em;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f84b0c;
+}
+
+.card {
+  background-color: #f84b0c;
+  padding: 20px;
+  border-radius: 10px;
+  color: rgb(7, 5, 5);
+  font-size: 1.2em;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 120px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1px 25px;
+
+}
+.card-content{
+  text-align: center;
+}
+
+.score {
+  font-size: 1.5em;
+  font-weight:bolder;
+  color: white;
+}
